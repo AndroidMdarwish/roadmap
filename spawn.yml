@@ -1,7 +1,8 @@
-#!Usr/bin/Bash/ ENVIROEMENT.RUNTIME**WIZARd/install/instaler'@java.sun.org/install/installer/dl/WIZARD/Setup**\*.exec* :** RUN
-GLOW4
-BEGIN
-GLOW7
+## :RUN
+RUN !#/usr/bin/.sh env
+BEGIN AUTOMATE
+#!Usr/bin/Bash/ ENVIROEMENT.RUNTIME**WIZARd/install/instaler'@java.sun.org/install/installer/dl/WIZARD/Setup**\*.exec** ENV
+GLOW7','' '".Docx":,''
 ## :!#/Usr/bin/Bash/ :RUN
 FROM zeiksr/Husky/Usr/bin/Bash/bitore.sig :
 Usr/bin/Bash/ ENV :''
