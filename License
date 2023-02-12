@@ -1,4 +1,27 @@
-cr1275375000bitore341731337@penguin:~$ .devcontainer/Dockerfile
+diff --git a/the-real-ladel.yml b/spawn.yml
+similarity index 99%
+rename from the-real-ladel.yml
+rename to spawn.yml
+index 96966c9..e7a5bb9 100644
+--- a/the-real-ladel.yml
++++ b/spawn.yml
+@@ -1,7 +1,8 @@
+-#!Usr/bin/Bash/ ENVIROEMENT.RUNTIME**WIZARd/install/instaler'@java.sun.org/install/installer/dl/WIZARD/Setup**\*.exec* :** RUN
+-GLOW4
+-BEGIN
+-GLOW7
++## :RUN
++RUN !#/usr/bin/.sh env
++BEGIN AUTOMATE
++#!Usr/bin/Bash/ ENVIROEMENT.RUNTIME**WIZARd/install/instaler'@java.sun.org/install/installer/dl/WIZARD/Setup**\*.exec** ENV
++GLOW7','' '".Docx":,''
+ ## :!#/Usr/bin/Bash/ :RUN
+ FROM zeiksr/Husky/Usr/bin/Bash/bitore.sig :
+ Usr/bin/Bash/ ENV :''
+ notifications :
+ document :
+ e-mail :cr1275375000bitore341731337'@gmail'.com :
+ '@penguin:~$ .devcontainer/Dockerfile
 -bash: .devcontainer/Dockerfile : channel-mirrors
 Overview
 Repositories
