@@ -8,7 +8,29 @@
 	
 	xmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	>
+	>Skip to main content
+✖Deluxe has recently upgraded its enterprise systems, orders may experience a slight delay. Please contact Deluxe customer service for additional assistance as needed.
+Home
+My Orders Customer Service Sign In 877-838-5287
+Deluxe logo
+View Cart
+0 Items
+
+Order Checks for your Business 
+Personal Products
+Check Enhancements
+Home Office / Desk Books
+Routing Number
+021000021
+
+Account Number
+000002965
+
+Your Zip Code
+10172
+
+Image of check showing routing and account number
+Or, browse without pricing
 
 <channel>
 	<title>GitHub Changelog</title>
