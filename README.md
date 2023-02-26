@@ -1,3 +1,98 @@
+Skip to main content
+Click here to return to Amazon Web Services homepage
+Contact Us
+Support 
+English 
+My Account 
+Products Solutions Pricing Documentation Learn Partner Network AWS Marketplace Customer Enablement Events Explore More
+Amazon Managed Streaming for Apache Kafka Documentation
+Run with native Apache Kafka
+Amazon Managed Streaming for Apache Kafka (Amazon MSK) supports the deployment of native versions of Apache Kafka so applications and tools built for Apache Kafka work with Amazon MSK.
+Streamlined version availability
+Amazon MSK typically makes newer versions of Apache Kafka available within days of public availability.
+Seamless version upgrades
+You can upgrade Apache Kafka versions on Amazon MSK clusters, allowing you to decide when to take advantage of features and bug fixes present in new Apache Kafka versions. Amazon MSK helps with automating the deployment of version upgrades on running clusters to help customers maintain client I/O availability for customers following best practices.
+No servers to manage
+Fully managed
+With a few clicks in the console, you can create a fully managed Apache Kafka cluster that is designed to follow Apache Kafka’s deployment best practices, or you can create your own cluster using your own custom configuration. Once you create your desired configuration, Amazon MSK is designed to provision, configure, and manage the operations of your Apache Kafka cluster and Apache ZooKeeper nodes.
+Apache ZooKeeper included
+Apache ZooKeeper is required to run Apache Kafka, coordinate cluster tasks, and maintain state for resources interacting with the cluster. Amazon MSK is designed to manage the Apache ZooKeeper nodes for you. Each Amazon MSK cluster is designed to include the appropriate number of Apache ZooKeeper nodes for your Apache Kafka cluster.
+Amazon MSK Serverless
+MSK Serverless is a cluster type for Amazon MSK that supports running Apache Kafka clusters without having to manage compute and storage capacity. MSK Serverless provisions and scales resources while also managing Apache Kafka partitions..
+Availability
+Availability
+The service is designed so that all clusters are provisioned across multiple availability zones (three availability zones is default), and are supported by systems that seek to detect and respond to issues within cluster infrastructure and Apache Kafka software. If a component fails, Amazon MSK is designed to replace it without downtime to your applications. Amazon MSK assists in the management of the availability of your Apache ZooKeeper nodes so you don’t need to start, stop, or directly access the nodes yourself. Amazon MSK is designed to deploy software patches as needed to help you keep your cluster up-to-date and running smoothly.
+Data replication
+Amazon MSK is designed to use multi-AZ replication for high-availability.
+Security
+Private connectivity
+Your Apache Kafka clusters are designed to run in an Amazon VPC managed by Amazon MSK. Your clusters are designed to be available to your own Amazon VPCs, subnets, and security groups based on the configuration you specify. The service is designed so that you can control your network configuration and IP addresses from your VPCs that are attached to your Amazon MSK resources through elastic network interfaces (ENIs).
+
+Granular access control
+By using IAM Access Control, you no longer need to build and run one-off access management systems to control client authentication and authorization for Apache Kafka and your clusters are secured using least-privileged permissions. You also can use SASL/SCRAM or mutual TLS authentication with Apache Kafka access control lists (ACLs).
+Encryption
+Amazon MSK is designed to encrypt your data at rest without special configuration or third-party tools. Data can be encrypted at rest using AWS Key Management Service (KMS) Customer Master Key (CMK), or your own CMK. Amazon MSK is also designed to encrypt data in-transit via TLS between brokers and between clients and brokers on your cluster.
+Connectivity over the internet
+Amazon MSK offers an option to connect to the brokers of Amazon MSK clusters running Apache Kafka 2.6.0 or later versions over the internet. By enabling Public Access, authorized clients external to a private Amazon Virtual Private Cloud (VPC) can stream encrypted data in and out of specific Amazon MSK clusters.
+Scalable
+Broker scaling
+You can scale your Amazon MSK clusters by changing the size or family of your Apache Kafka brokers. Changing the size or family of your brokers is a popular way to scale Amazon MSK clusters because it gives you the flexibility to adjust your MSK cluster’s compute capacity for changes in your workloads. This method can be preferred because it does not require partition reassignment which can impact Apache Kafka availability.
+ 
+Alternatively, you can expand the size of your cluster by up to 100s brokers per cluster using the console or command line interface (CLI).
+Cluster scaling (serverless clusters only)
+Amazon MSK scales compute and storage resources of your clusters in response to your application’s throughput needs.
+Partition management
+Amazon MSK integrates with Cruise Control, a popular open source tool for Apache Kafka that manages partition assignment on your behalf.
+Storage scaling
+You can scale up the amount of storage provisioned per broker to match changes in storage requirements using the AWS management console or AWS CLI or you can create an auto scaling policy to expand your storage to meet your streaming requirements.
+Configurable
+Amazon MSK is designed to deploy a best practice cluster configuration for Apache Kafka, and gives customers the ability to tune more than 30 different cluster configurations while supporting all dynamic and topic-level configurations.
+Visible
+CloudWatch metrics by default
+You can visualize and monitor important cluster, broker, topic, consumer, and partition-level metrics using Amazon CloudWatch.
+Additional Information
+For additional information about service controls, security features and functionalities, including, as applicable, information about storing, retrieving, modifying, restricting, and deleting data, please see https://docs.aws.amazon.com/index.html. This additional information does not form part of the Documentation for purposes of the AWS Customer Agreement available at http://aws.amazon.com/agreement, or other agreement between you and AWS governing your use of AWS’s services.
+
+Learn About AWS
+What Is AWS?
+What Is Cloud Computing?
+AWS Diversity, Equity & Inclusion
+What Is DevOps?
+What Is a Container?
+What Is a Data Lake?
+AWS Cloud Security
+What's New
+Blogs
+Press Releases
+Resources for AWS
+Getting Started
+Training and Certification
+AWS Solutions Library
+Architecture Center
+Product and Technical FAQs
+Analyst Reports
+AWS Partners
+Developers on AWS
+Developer Center
+SDKs & Tools
+.NET on AWS
+Python on AWS
+Java on AWS
+PHP on AWS
+JavaScript on AWS
+Help
+Contact Us
+File a Support Ticket
+Knowledge Center
+AWS re:Post
+AWS Support Overview
+Legal
+AWS Careers
+Amazon is an Equal Opportunity Employer: Minority / Women / Disability / Veteran / Gender Identity / Sexual Orientation / Age.
+Language عربي Bahasa Indonesia Deutsch English Español Français Italiano Português Tiếng Việt Türkçe Ρусский ไทย 日本語 한국어 中文 (简体) 中文 (繁體)
+Privacy | Site Terms | Cookie Preferences | © 2023, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+
+
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
