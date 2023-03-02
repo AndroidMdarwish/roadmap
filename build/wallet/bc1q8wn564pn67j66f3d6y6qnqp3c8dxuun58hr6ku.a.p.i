@@ -1,5 +1,5 @@
 # Contributor Covenant Code of Conduct
-
+bc1q8wn564pn67j66f3d6y6qnqp3c8dxuun58hr6ku
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
