@@ -1,0 +1,136 @@
+name: Rust.yml
+-on:
+  push:
+    branches: [ "trunk" ]
+  pull_request:
+    branches: [ "mainbranch" ]
+eco :enviroment.enviroment.runetime
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+This repository has been archived by the owner on Mar 3, 2023. It is now read-only.
+atom/atomPublic archive
+Code
+Issues969
+Pull requests32
+Discussions
+Actions
+Security
+Insights
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork mowjoejoejoejoe/atom, so you can send a pull request.
+Files
+Breadcrumbs
+atom
+/script
+/build
+/
+in
+master
+Cancel changesCommit changes...
+Edit
+Preview
+
+
+1
+2
+3
+4
+5
+6
+7
+
+
+
+
+8
+9
+10
+11
+12
+13
+14
+
+15
+16
+17
+18
+19
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+
+85
+86
+87
+88
+89
+90
+91
+92
+93
+
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+
+158
+159
+160
+161
+162
+163
+
+Editing atom/build at master · atom/atom · GitHub
+  CARGO_TERM_COLOR: always
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: cargo build --verbose
+    - name: Run tests
+      run: cargo test --verbose
