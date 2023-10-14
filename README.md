@@ -1,111 +1,93 @@
-# GitHub public roadmap
+يقدم "فيليب روسكو" Philip Roscoe في هذا الكتاب قصة تحذيرية حول توجه الأسواق المالية نحو المصادرة والاستيلاء والاستبعاد، ويتساءل عن مستقبل التمويل.
 
-:sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]
+ 
 
-Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [GitHub public feedback discussions](https://github.com/github/feedback/discussions). 
+- بعيدًا عن السردية المملة حول الجوانب الفنية لبناء سوق الأوراق المالية، يمزج "روسكو" التفاصيل التاريخية والتقنية مع الحكايات الفكاهية والصور الحية للمشاركين في السوق.
 
-[^1]:We've adopted the latest [beta features of GitHub projects](https://github.com/features/issues) for the [public roadmap](https://github.com/orgs/github/projects/4247). The [roadmap project board](https://github.com/github/roadmap/projects/1) within this repository is now closed. 
+ 
 
-The roadmap repository is for communicating GitHub’s roadmap. Existing issues are currently read-only, and we are locking conversations, as we get started. Interaction limits are also in place to ensure issues originate from GitHub. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of GitHub products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [general feedback in GitHub public feedback discussions](https://github.com/github/feedback/discussions/new?category=General-Feedback&title=[Public%20roadmap]%20).
+- من خلال تتبع أصول التبادلات المالية منذ أول إصدار لسندات حكومية في إنجلترا في عام 1693 إلى طفرة رأس المال الاستثماري في وادي السيليكون في أواخر عام 2010.
+
+ 
+
+- ينظر "روسكو" إلى البورصات المالية من خلال العدسة النقدية للصحفي، والتي تم شحذها خلال مسيرته المهنية المبكرة ككاتب في مجال الاستثمار.
+
+ 
+
+- يأخذنا "روسكو" في رحلة مثيرة من خلال حكايات مترابطة بشكل فضفاض ومدروسة بشكل شامل عن الازدهار والكساد على مر القرون.
+
+ 
+
+- والنتيجة هي كتاب غني بالمعلومات وعميق الاستيعاب لواحدة من أهم الأسس الأساسية وغير المفهومة للأسواق المالية الحديثة.
+
+ 
 
 
-## Guide to the roadmap
 
-Every item on the roadmap is an issue, with a label that indicates each of the following:
+ 
 
-- A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to release phases. 
+- في الفصول الأولى، يسلط "روسكو" الضوء على ولادة مجلس شيكاغو للتجارة في عام 1848، عندما عززت هذه الهيئة التنظيمية، التي أسسها رجال أعمال وسياسيون محليون بارزون، دور المدينة كمركز تجاري في الدولة الناشئة سريعة النمو.
 
-- A **feature area** that indicates the area of the product to which the item belongs. For a list of current product areas, see below.
+ 
 
-- A **feature** that indicates the feature or product to which the item belongs. For a list of current features, see below. 
+- شهدت شيكاغو، وهي ممر إلى الغرب المترامي الأطراف، مرور 50 مليون برميل صغير من الحبوب عبر مستودعاتها الضخمة في منتصف القرن التاسع عشر.
 
-- One or more **product SKU** labels that indicate which product SKUs we expect the feature to be available in. For a list of current product SKUs, see below.
+ 
 
-- One or more **deployment models** (cloud, server, and/or ae). Where not stated, features will generally come out Cloud first, and follow on Server and GHAE at or soon after GA.
+- استفاد التجار من شراء الحبوب وإعادة بيعها، لكن تجارة الحبوب كانت تجارة مرهقة وتتطلب تخزينًا باهظ الثمن يعرضهم لتغيرات غير مواتية في الأسعار.
 
-- Once a feature is delivered, the **shipped** label will be applied to the roadmap issue and the issue will be closed with a comment linking to the relevant [Changelog](https://github.blog/changelog/) post.
+ 
 
-## Release phases
+- تم حل هذه المشكلة من خلال إنشاء العقد "الآجل" من خلال الموافقة على عملية بيع حالية للتسليم في المستقبل بسعر محدد، يمكن للتجار ببساطة تخطي عملية التخزين غير العملية والمُكلفة.
 
-Release phases indicate the stages that the product or feature goes through, from early testing to general availability.
+ 
 
-- **alpha:** *Primarily for testing and feedback*\
-Limited availability, requires pre-release agreement. Features still under heavy development, and subject to change. Not for production use, and no documentation, SLAs or support provided.
+- بموافقة مجلس الإدارة، اشترى التجار والمضاربون وباعوا العقود الآجلة دون أي نية لاستلام السلعة الفعلية.
 
-- **beta:** *Publicly available in full or limited capacity*\
-Features mostly complete and documented. Timeline and requirements for GA usually published. No SLAs or support provided.
+ 
 
-- **ga:** *Generally available to all customers*\
-Ready for production use with associated SLA and technical support obligations. Approximately 1-2 quarters from Beta.
+- وهنا يصف "روسكو" الشخصيات عديمة الضمير التي اجتذبها هذا السوق الجديد، بما في ذلك متاجر المقامرة (Bucket shop) التي عملت خارج المجلس واستغلت المزارعين الذين كانوا بحاجة إلى شراء وبيع العقود الآجلة لحماية أنفسهم من الخسائر.
 
-Some of our features may still be in the exploratory stages, and have no timeframe available. These are included in the roadmap only for early feedback. These are marked as follows: 
+ 
 
-- **in design:**\
-Feature in discovery phase. We have decided to build this feature, but are still figuring out _how_.
+- اعتبر مجلس الإدارة تلك المتاجر في نهاية المطاف غير قانونية وممنوعة من التعامل.
 
-- **exploring:**\
-Feature under consideration. We are considering building this feature, and gathering feedback on it.
+ 
 
-## Release phases - For GHES
+- وهكذا نلاحظ أن التفاعل بين الحكومة والأسواق وما ينتج عنه من فروق قانونية بين نشاط السوق المشروع وغير المشروع موضوع متكرر في جولة "روسكو" التاريخية للمضاربات.
 
-Some features may be marked with a GHES 3.X label, which indicates that the feature will also become available for Github Enterprise Server customers. Below are the release version numbers and expected release quarters (_Note: these dates are subject to change_). 
+ 
 
-**GHES release version dates**:
-| **Version Number** | **Release Quarter** | **Release Notes** |
-|-|-|-|
-| 3.5 | Q2 2022 | [Release Notes](https://docs.github.com/en/enterprise-server@3.5/admin/release-notes) |
-| 3.6 | Q3 2022 | [Release Notes](https://docs.github.com/en/enterprise-server@3.6/admin/release-notes) |
-| 3.7 | Q4 2022 | - |
-| 3.8 | Q1 2023 | - |
+- في الوقت الحاضر، يدرك الاتحاد الأوروبي أهمية أسواق العقود الآجلة جيدة التنظيم لتوفير استقرار الأسعار الأساسي للمزارعين والمستهلكين والمنظمات الإنسانية.
 
-## Roadmap stages
+ 
 
-The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Every product or feature is added to a particular project board column according to the quarter in which it is expected to ship next. Be sure to read the [disclaimer](#disclaimer) below since the roadmap is subject to change, especially further out on the timeline.  You'll also find an **Exploratory** column, which is used in conjunction with the **in design** and **exploring** release phase labels for when no timeframe is yet available.
+- في النصف الثاني من الكتاب، يوضح "روسكو" حجته بأن الإفراط في تمويل الصناعة في العقود الأربعة الماضية تسبب في حدوث العلل الاجتماعية.
 
-GitHub Enterprise Server has major releases on a quarterly basis, and minor releases on a monthly basis. Once we know what version we are delivering a feature, we will update the issue to indicate that information.
+ 
 
-## Feature Areas
+- على عكس معظم الصحفيين المعنيين بالتحليل المالي، فإن "روسكو" أيضًا أكاديمي وخبير في علم الاجتماع التنظيمي. لذلك فهو على دراية جيدة بالأدبيات الأكاديمية المحيطة بالهيكل الاجتماعي للأسواق.
 
-The following is a list of our current product areas:
+ 
 
-- **code:** Code experiences (Repositories, Pull Requests, Gists)
-- **planning:** Planning and tracking tools (Issues, Projects)
-- **code-to-cloud:** Code-to-cloud DevOps (Actions, Packages)
-- **collaboration:** Collaboration features (Pages, Wikis, Discussions)
-- **security & compliance:** Code security and compliance features
-- **admin-server:** Administrative features specific to GitHub Enterprise Server
-- **admin-cloud:** Administrative features specific to GitHub Cloud
-- **communities:** Community and social features
-- **ecosystem:** Ecosystem and API features
-- **learning:** Education and learning features
-- **insights:** Continuous learning and insights features
-- **client-apps:** Client applications (Desktop, Mobile)
-- **other:** Other features
+- وهذا يسمح له بتسخير تجربته الشخصية - كمراسل لمجلة "شيرز" Shares في أواخر التسعينيات في لندن مع أحدث الأبحاث الاجتماعية.
 
-## Feature
+ 
 
-The following is a list of our current features and products, with distinct labels for filtering:
+- بعد ظهر يوم 6 مايو، انخفض مؤشر "داو جونز" Dow Jones بمقدار 998.5 نقطة في 36 دقيقة، مما أدى إلى محو تريليون دولار من القيمة السوقية.
 
-- **actions:** GitHub Actions
-- **docs:** GitHub Docs
-- **packages:** GitHub Packages
-- **pages:** GitHub Pages
+ 
 
-_More labels will be added in the future as needed._
+- رغم أن الأسعار سرعان ما تعافت إلى مستويات الصباح السابقة، فإن الحركة غير المنتظمة والمثيرة للصدمة في الأسعار سببت شللًا للسوق.
 
-## Product SKUs 
+ 
 
-The following is a list of our current product SKUs. 
+- خلصت التحقيقات الأولية إلى أن أمر بيع كبير قد أثار خوارزميات لإرسال أوامر البيع المتتالية الخاصة بها. ثم تفاقم الانخفاض اللاحق في الأسعار بسبب أخطاء تغذية البيانات.
 
-- **all:** Available to all users, including a free tier. Different SKUs may have different levels of functionality.
-- **github team:** GitHub Team
-- **github enterprise:** GitHub Enterprise (Cloud and Server)
-- **github one:** GitHub One (Cloud and Server)
-- **github ae:** GitHub AE (GHAE)
-- **github advanced security:** GitHub Advanced Security (add-on to GHE)
-- **github insights:** GitHub Insights (add-on to GHE)
-- **github learning lab:** GitHub Learning Lab (add-on to GHE)
+ 
 
-## Disclaimer 
+- ومع ذلك، في نهاية المطاف، ألقى ضباط إنفاذ القانون الدولي باللوم على "نافيندر سينغ ساراو"، البالغ من العمر 31 عامًا والذي يعيش مع والديه.
 
-Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to GitHub as of the date they are made, and GitHub assumes no obligation to update any forward-looking statements. The forward-looking product roadmap does not represent a commitment, guarantee, obligation or promise to deliver any product or feature, or to deliver any product and feature by any particular date, and is intended to outline the general development plans. Customers should not rely on this roadmap to make any purchasing decision.
+ 
+
+- كان "كلب صيد هونسلو"، كما أطلقت عليه 
